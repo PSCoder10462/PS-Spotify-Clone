@@ -1,0 +1,22 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login > img {
+  width: 70vw;
+  object-fit: contain;
+}
+
+.login > a {
+  padding: 20px;
+  background-color: var(--spotify-green);
+  border-radius: 99px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  font-size: calc(12px + 1vw);
+  cursor: pointer;
+}
